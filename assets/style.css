@@ -1,11 +1,26 @@
 body {
     font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 960px;
+    margin: 0 auto;
 }
-.clearfix{
-    
-    margin-bottom: 20px;
+header {
+    position: absolute;   
 }
+
+.clearfix::after {
+     clear: both;
+    content: "";
+    display: block;
+}
+
+#namebox { 
+    margin: 0;
+    padding: 0;
+
+}
+
  h1 {
+     /* position: absolute; */
      background: turquoise;
      color: white;
      float: left;
@@ -13,23 +28,23 @@ body {
      padding-top:25px;
      text-align: center; 
      width: 300px;
+     margin-top: -30px;
 }
- ul{
 
-     border-right: 2px solid rgb(207, 206, 206);
-     display: none;
-     float: right;
+ .links{
+    position: relative;
+     /* border-right: 2px solid rgb(207, 206, 206); */
      list-style-type: none;
-     margin: 0;
+     margin: 0 auto;
      overflow: hidden;
-     padding: 0;
- }
- li {
+     padding: 20px 0 0 650px;
      float: right;
  }
+
 li,a{
+    position: relative;
     color: darkgray;
-    display: block;
+    /* display: block; */
     padding: 16px;
     text-align: center;
     text-decoration: none;
@@ -45,3 +60,12 @@ hr {
 section {
     
 }
+footer {
+    background: darkgray;
+    border-top:5px solid turquoise;
+
+}
+h6 {
+    text-align: center;
+}
+
