@@ -1,0 +1,47 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.clearfix{
+    
+    margin-bottom: 20px;
+}
+ h1 {
+     background: turquoise;
+     color: white;
+     float: left;
+     height: 60px;
+     padding-top:25px;
+     text-align: center; 
+     width: 300px;
+}
+ ul{
+
+     border-right: 2px solid rgb(207, 206, 206);
+     display: none;
+     float: right;
+     list-style-type: none;
+     margin: 0;
+     overflow: hidden;
+     padding: 0;
+ }
+ li {
+     float: right;
+ }
+li,a{
+    color: darkgray;
+    display: block;
+    padding: 16px;
+    text-align: center;
+    text-decoration: none;
+
+}
+h2{
+    color: turquoise;
+    text-align: center;
+}
+hr {
+    border: 1px solid darkgray
+}
+section {
+    
+}
