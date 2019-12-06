@@ -4,43 +4,32 @@ body {
     margin: 0 auto;
 }
 header {
-    position: absolute;   
+      height: 60px;
 }
-
 .clearfix::after {
      clear: both;
     content: "";
     display: block;
 }
-
-#namebox { 
-    margin: 0;
-    padding: 0;
-
-}
-
- h1 {
-     /* position: absolute; */
+h1 {
+     position: absolute;
      background: turquoise;
      color: white;
-     float: left;
      height: 60px;
-     padding-top:25px;
+     padding-top:40px;
      text-align: center; 
      width: 300px;
      margin-top: -30px;
 }
-
- .links{
+.links{
     position: relative;
      /* border-right: 2px solid rgb(207, 206, 206); */
      list-style-type: none;
-     margin: 0 auto;
+     /* margin: 0 auto; */
      overflow: hidden;
      padding: 20px 0 0 650px;
      float: right;
  }
-
 li,a{
     position: relative;
     color: darkgray;
@@ -48,24 +37,25 @@ li,a{
     padding: 16px;
     text-align: center;
     text-decoration: none;
-
 }
 h2{
     color: turquoise;
     text-align: center;
 }
-hr {
+co
+    hr {
     border: 1px solid darkgray
-}
-section {
-    
 }
 footer {
     background: darkgray;
     border-top:5px solid turquoise;
-
+    padding-bottom: 7px;
 }
 h6 {
     text-align: center;
 }
+#main 
+#bio-image {
+    float:left;
 
+}
