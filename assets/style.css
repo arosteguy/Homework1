@@ -57,5 +57,7 @@ h6 {
 #main 
 #bio-image {
     float:left;
-
+}
+#bio-image {
+    margin-right: 15px;
 }
