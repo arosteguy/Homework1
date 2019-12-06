@@ -2,6 +2,7 @@ body {
     font-family: Georgia, 'Times New Roman', Times, serif;
     width: 960px;
     margin: 0 auto;
+    background-image: url ("triangle-mosaic.png");
 }
 header {
       height: 60px;
